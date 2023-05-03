@@ -1,0 +1,57 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 230, 0, 0.483);
+    color: #000;
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+
+}
+
+.image img {
+    border: 1px solid black;
+}
+
+table {
+    margin: 25px;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    font-size: 24px;
+
+}
+
+td {
+    text-align: center;
+}
+
+.profile {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+th {
+    background-color: white;
+}
